@@ -1,4 +1,5 @@
-const player = new Tone.Player("assets/sounds/kill_bill_whistle.mp3");
+const player = new Tone.Player("assets/sounds/kill_bill_whistle.mp3").toMaster();
+//const synth = new Tone.Synth().toDestination();
 function setup() {
   playBtn = createButton('');
   createCanvas(10, 10);
@@ -7,23 +8,23 @@ function setup() {
 }
 
 function draw(){
-  if(player.state == "stopped"){
+  /*if(player.state == "stopped"){
     playBtn.style('background-image:url(assets/ui/play.png)');
   }
   else{
     playBtn.style('background-image:url(assets/ui/pause.png)');
-  }
+  }*/
 }
 
 
 
 function togglePlay(){
-  if(player.state == "started"){
-    player.stop();
-  }
-  else{
-    player.start();
-  }
+    /*const now = Tone.now()
+    // trigger the attack immediately
+    synth.triggerAttack("C4", now)
+    // wait one second before triggering the release
+    synth.triggerRelease(now + 1)*/
+    
 }
 
 
