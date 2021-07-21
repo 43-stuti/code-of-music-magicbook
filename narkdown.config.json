@@ -7,9 +7,9 @@
       "generateSlug": true
     },
     "databaseConfig": {
-      "categoryColumnName": "",
-      "statusColumnName": "",
-      "currentStatus": "",
-      "nextStatus": ""
+      "categoryColumnName": "Category",
+      "statusColumnName": "Status",
+      "currentStatus": "inprogress",
+      "nextStatus": "published"
     }
   }
