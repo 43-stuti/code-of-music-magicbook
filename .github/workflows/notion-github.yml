@@ -17,7 +17,7 @@ jobs:
           database-url: 'https://www.notion.so/45f630998404497388d8d2bb3a7f509c'
           docs-directory: markdown
         env:
-          NOTION_TOKEN: ${{ secrets.TOKEN_NOTION }}
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
 
       - name: Format documents
         uses: creyD/prettier_action@v3.1
