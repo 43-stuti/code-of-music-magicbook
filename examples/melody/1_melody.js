@@ -8,7 +8,7 @@ function setup() {
 }
 
 function draw(){
-  /*if(player.state == "stopped"){
+  /*if(player.state == "stopped){
     playBtn.style('background-image:url(assets/ui/play.png)');
   }
   else{
