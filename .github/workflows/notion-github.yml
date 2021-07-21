@@ -1,9 +1,6 @@
 name: Notion2Github
 on:
-  pull_request:
-  push:
-    branches:
-      - master
+  on: workflow_dispatch
 jobs:
   auto-sync-from-notion-to-github:
     runs-on: ubuntu-latest
