@@ -1,5 +1,4 @@
 ---
-slug: 'embed'
 title: 'Embed'
 ---
 

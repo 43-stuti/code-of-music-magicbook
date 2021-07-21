@@ -1,5 +1,4 @@
 ---
-slug: "test2"
 name: "test2"
 status: inprogress
 category: chapter
