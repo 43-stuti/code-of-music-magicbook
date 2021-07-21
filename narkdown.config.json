@@ -9,7 +9,7 @@
     "databaseConfig": {
       "categoryColumnName": "Category",
       "statusColumnName": "Status",
-      "currentStatus": "inprogress",
-      "nextStatus": "published"
+      "currentStatus": "✅ Completed",
+      "nextStatus": "🖨 Published"
     }
   }
